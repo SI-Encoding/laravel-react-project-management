@@ -18,8 +18,9 @@ The application is designed to demonstrate CRUD operations in a modern web devel
 
 1. Rename .env.example to .env
 2. Run 'composer install'.
-3. Next, run 'php artisan migrate --seed'.
-4. Then, run 'php artisan serve'.
+3. Run 'php artisan key:generate --ansi'.
+4. Next, run 'php artisan migrate --seed'.
+5. Then, run 'php artisan serve'.
 
 ## For Client Side
 
